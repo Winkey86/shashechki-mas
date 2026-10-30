@@ -1,0 +1,26 @@
+{
+  "scope": "Project interface concept only; not a simulation acceptance test",
+  "pricingExamples": "passed",
+  "roundsAndSelection": "passed",
+  "tariffAndRatingChanges": "passed",
+  "reset": "passed",
+  "runtimeErrors": [],
+  "assertionErrors": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false
+    }
+  ]
+}
