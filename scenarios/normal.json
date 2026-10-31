@@ -1,0 +1,909 @@
+{
+  "schema_version": "1.0",
+  "scenario_id": "normal",
+  "title": "Обычная поездка",
+  "description": "Подача, два согласия и завершение поездки",
+  "city": {
+    "id": "city",
+    "nodes": [
+      {
+        "id": "N00",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "id": "N01",
+        "x": 0,
+        "y": 1
+      },
+      {
+        "id": "N02",
+        "x": 0,
+        "y": 2
+      },
+      {
+        "id": "N03",
+        "x": 0,
+        "y": 3
+      },
+      {
+        "id": "N04",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "id": "N10",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "id": "N11",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "id": "N12",
+        "x": 1,
+        "y": 2
+      },
+      {
+        "id": "N13",
+        "x": 1,
+        "y": 3
+      },
+      {
+        "id": "N14",
+        "x": 1,
+        "y": 4
+      },
+      {
+        "id": "N20",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "id": "N21",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "id": "N22",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "id": "N23",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "id": "N24",
+        "x": 2,
+        "y": 4
+      },
+      {
+        "id": "N30",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "id": "N31",
+        "x": 3,
+        "y": 1
+      },
+      {
+        "id": "N32",
+        "x": 3,
+        "y": 2
+      },
+      {
+        "id": "N33",
+        "x": 3,
+        "y": 3
+      },
+      {
+        "id": "N34",
+        "x": 3,
+        "y": 4
+      },
+      {
+        "id": "N40",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "id": "N41",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "id": "N42",
+        "x": 4,
+        "y": 2
+      },
+      {
+        "id": "N43",
+        "x": 4,
+        "y": 3
+      },
+      {
+        "id": "N44",
+        "x": 4,
+        "y": 4
+      }
+    ],
+    "edges": [
+      {
+        "id": "E00-10",
+        "from": "N00",
+        "to": "N10",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E00-01",
+        "from": "N00",
+        "to": "N01",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E01-11",
+        "from": "N01",
+        "to": "N11",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E01-02",
+        "from": "N01",
+        "to": "N02",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E01-00",
+        "from": "N01",
+        "to": "N00",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E02-12",
+        "from": "N02",
+        "to": "N12",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E02-03",
+        "from": "N02",
+        "to": "N03",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E02-01",
+        "from": "N02",
+        "to": "N01",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E03-13",
+        "from": "N03",
+        "to": "N13",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E03-04",
+        "from": "N03",
+        "to": "N04",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E03-02",
+        "from": "N03",
+        "to": "N02",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E04-14",
+        "from": "N04",
+        "to": "N14",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E04-03",
+        "from": "N04",
+        "to": "N03",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E10-20",
+        "from": "N10",
+        "to": "N20",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E10-00",
+        "from": "N10",
+        "to": "N00",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E10-11",
+        "from": "N10",
+        "to": "N11",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E11-21",
+        "from": "N11",
+        "to": "N21",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E11-01",
+        "from": "N11",
+        "to": "N01",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E11-12",
+        "from": "N11",
+        "to": "N12",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E11-10",
+        "from": "N11",
+        "to": "N10",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E12-22",
+        "from": "N12",
+        "to": "N22",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E12-02",
+        "from": "N12",
+        "to": "N02",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E12-13",
+        "from": "N12",
+        "to": "N13",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E12-11",
+        "from": "N12",
+        "to": "N11",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E13-23",
+        "from": "N13",
+        "to": "N23",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E13-03",
+        "from": "N13",
+        "to": "N03",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E13-14",
+        "from": "N13",
+        "to": "N14",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E13-12",
+        "from": "N13",
+        "to": "N12",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E14-24",
+        "from": "N14",
+        "to": "N24",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E14-04",
+        "from": "N14",
+        "to": "N04",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E14-13",
+        "from": "N14",
+        "to": "N13",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E20-30",
+        "from": "N20",
+        "to": "N30",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E20-10",
+        "from": "N20",
+        "to": "N10",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E20-21",
+        "from": "N20",
+        "to": "N21",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E21-31",
+        "from": "N21",
+        "to": "N31",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E21-11",
+        "from": "N21",
+        "to": "N11",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E21-22",
+        "from": "N21",
+        "to": "N22",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E21-20",
+        "from": "N21",
+        "to": "N20",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E22-32",
+        "from": "N22",
+        "to": "N32",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E22-12",
+        "from": "N22",
+        "to": "N12",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E22-23",
+        "from": "N22",
+        "to": "N23",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E22-21",
+        "from": "N22",
+        "to": "N21",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E23-33",
+        "from": "N23",
+        "to": "N33",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E23-13",
+        "from": "N23",
+        "to": "N13",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E23-24",
+        "from": "N23",
+        "to": "N24",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E23-22",
+        "from": "N23",
+        "to": "N22",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E24-34",
+        "from": "N24",
+        "to": "N34",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E24-14",
+        "from": "N24",
+        "to": "N14",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E24-23",
+        "from": "N24",
+        "to": "N23",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E30-40",
+        "from": "N30",
+        "to": "N40",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E30-20",
+        "from": "N30",
+        "to": "N20",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E30-31",
+        "from": "N30",
+        "to": "N31",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E31-41",
+        "from": "N31",
+        "to": "N41",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E31-21",
+        "from": "N31",
+        "to": "N21",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E31-32",
+        "from": "N31",
+        "to": "N32",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E31-30",
+        "from": "N31",
+        "to": "N30",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E32-42",
+        "from": "N32",
+        "to": "N42",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E32-22",
+        "from": "N32",
+        "to": "N22",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E32-33",
+        "from": "N32",
+        "to": "N33",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E32-31",
+        "from": "N32",
+        "to": "N31",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E33-43",
+        "from": "N33",
+        "to": "N43",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E33-23",
+        "from": "N33",
+        "to": "N23",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E33-34",
+        "from": "N33",
+        "to": "N34",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E33-32",
+        "from": "N33",
+        "to": "N32",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E34-44",
+        "from": "N34",
+        "to": "N44",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E34-24",
+        "from": "N34",
+        "to": "N24",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E34-33",
+        "from": "N34",
+        "to": "N33",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E40-30",
+        "from": "N40",
+        "to": "N30",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E40-41",
+        "from": "N40",
+        "to": "N41",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E41-31",
+        "from": "N41",
+        "to": "N31",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E41-42",
+        "from": "N41",
+        "to": "N42",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E41-40",
+        "from": "N41",
+        "to": "N40",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E42-32",
+        "from": "N42",
+        "to": "N32",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E42-43",
+        "from": "N42",
+        "to": "N43",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E42-41",
+        "from": "N42",
+        "to": "N41",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E43-33",
+        "from": "N43",
+        "to": "N33",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E43-44",
+        "from": "N43",
+        "to": "N44",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E43-42",
+        "from": "N43",
+        "to": "N42",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E44-34",
+        "from": "N44",
+        "to": "N34",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      },
+      {
+        "id": "E44-43",
+        "from": "N44",
+        "to": "N43",
+        "distance_m": 1000,
+        "travel_ms": 144000
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "id": "D00",
+      "start_node": "N10",
+      "vehicle_class": "economy",
+      "cost_per_km": "8.00",
+      "cost_per_min": "1.00",
+      "minimum_profit": "30.00",
+      "markup": "20.00",
+      "decrement": "10.00",
+      "rating_history": [
+        {
+          "id": "H-D00-0",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-0",
+          "source_event_id": "past-0",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-1",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-1",
+          "source_event_id": "past-1",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-2",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-2",
+          "source_event_id": "past-2",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-3",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-3",
+          "source_event_id": "past-3",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-4",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-4",
+          "source_event_id": "past-4",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-5",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-5",
+          "source_event_id": "past-5",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-6",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-6",
+          "source_event_id": "past-6",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-7",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-7",
+          "source_event_id": "past-7",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-8",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-8",
+          "source_event_id": "past-8",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-D00-9",
+          "value": 5,
+          "cause": "fixture",
+          "commitment_id": "past-9",
+          "source_event_id": "past-9",
+          "origin": "fixture"
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "id": "P000",
+      "budget": "500.00",
+      "max_wait_ms": 900000,
+      "allowed_tariffs": [
+        "economy",
+        "comfort"
+      ],
+      "min_driver_rating": "4.0",
+      "rating_history": [
+        {
+          "id": "H-P000-0",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-0",
+          "source_event_id": "past-0",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-1",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-1",
+          "source_event_id": "past-1",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-2",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-2",
+          "source_event_id": "past-2",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-3",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-3",
+          "source_event_id": "past-3",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-4",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-4",
+          "source_event_id": "past-4",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-5",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-5",
+          "source_event_id": "past-5",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-6",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-6",
+          "source_event_id": "past-6",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-7",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-7",
+          "source_event_id": "past-7",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-8",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-8",
+          "source_event_id": "past-8",
+          "origin": "fixture"
+        },
+        {
+          "id": "H-P000-9",
+          "value": 3,
+          "cause": "fixture",
+          "commitment_id": "past-9",
+          "source_event_id": "past-9",
+          "origin": "fixture"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "O000",
+      "passenger_id": "P000",
+      "created_at_ms": 0,
+      "origin": "N00",
+      "destination": "N23",
+      "tariff_id": "economy"
+    }
+  ],
+  "channel_profile": [
+    {
+      "channel": "default",
+      "from_ms": 0,
+      "to_ms": 86400001,
+      "delay_ms": 50,
+      "drop": false,
+      "duplicate_count": 0,
+      "duplicate_offset_ms": 1
+    }
+  ],
+  "faults": [],
+  "config": {}
+}

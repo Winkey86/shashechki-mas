@@ -1,0 +1,57 @@
+{
+  "conflict": {
+    "canonical_sha256": "2a0b14213f1a55c1b0922925566959048e09d978c2b98ca3d59b7976aee2f883",
+    "path": "results/run-b0d28899ae05454186a8",
+    "result_id": "run-b0d28899ae05454186a8"
+  },
+  "fault-f1": {
+    "canonical_sha256": "6fb91dbe9c17e570c2e156abb12eff9c2e9bb7d35383a9d5136e8e2e6ce53526",
+    "path": "results/run-52b2830ce450419697c9",
+    "result_id": "run-52b2830ce450419697c9"
+  },
+  "fault-f2": {
+    "canonical_sha256": "401c045606f01c3f5b6b258e24049da0eb511af3b51f5a9f4539e10ceb9607a7",
+    "path": "results/run-c76a1943f5ac47a4a9db",
+    "result_id": "run-c76a1943f5ac47a4a9db"
+  },
+  "fault-f3": {
+    "canonical_sha256": "2d315edf5469b46d6d23f8a6a77812dba18f11d4e1df82d255d4df56985aa261",
+    "path": "results/run-5b6ed9b1de354697895e",
+    "result_id": "run-5b6ed9b1de354697895e"
+  },
+  "fault-f4": {
+    "canonical_sha256": "b82529139d48062863a8a94890c7d0c8eb15b3928442c293c7583dd2a56059c4",
+    "path": "results/run-823ecdf9be5f4bb69330",
+    "result_id": "run-823ecdf9be5f4bb69330"
+  },
+  "fault-f5": {
+    "canonical_sha256": "9435c72f620b522aa93c65a01688747aa3bbf3e8440f4e1ac3412aee6d58cff8",
+    "path": "results/run-027c21f525a84f2280bb",
+    "result_id": "run-027c21f525a84f2280bb"
+  },
+  "fault-f6": {
+    "canonical_sha256": "ce6f8dee7d312f8fb8f0870ba7434d052938dd3d0a88bc67a070e82b9b4221ae",
+    "path": "results/run-dddf1245f3b64ec789c1",
+    "result_id": "run-dddf1245f3b64ec789c1"
+  },
+  "fault-f7": {
+    "canonical_sha256": "90b8687e675e0aef3dcdf93de404a60bc46306b5efb0d706a2b4dd988edbffba",
+    "path": "results/run-c524ce3285794597a779",
+    "result_id": "run-c524ce3285794597a779"
+  },
+  "normal": {
+    "canonical_sha256": "3391450e8f4e33ff2f89e2006f70bd331bba5dccb3aabe9167f38b6595daa839",
+    "path": "results/run-961339f6283c47e18573",
+    "result_id": "run-961339f6283c47e18573"
+  },
+  "playback-10": {
+    "canonical_sha256": "7fa6689f2fab10b1e5e4621abcae78ceb3f1b97e247c9dd6313986694ef3c24d",
+    "path": "results/run-7a2149fe110a4e00ad56",
+    "result_id": "run-7a2149fe110a4e00ad56"
+  },
+  "tariff-switch": {
+    "canonical_sha256": "a4d084770a4e54c2ecd6403d32c6b8f1ce43b299e4db2f621ed8a2c7482dbe67",
+    "path": "results/run-da566a9dc11442b4b8d1",
+    "result_id": "run-da566a9dc11442b4b8d1"
+  }
+}

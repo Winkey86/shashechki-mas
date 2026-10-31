@@ -1,0 +1,5 @@
+digraph G {rankdir=TB;node[shape=box,fontname="Arial",fontsize=13];edge[fontname="Arial",fontsize=10];c[label="Диспетчер"];p[label="Пассажир"];d[label="Водители D0…Dn"];p->c[label="REQUEST / CONSENT / COUNTER
+BOARD_CONFIRM / TARIFF_ACCEPT"];c->p[label="CONSENT_REQUEST / CONFIRM
+BOARD_REQUEST / TARIFF_PROPOSE"];d->c[label="TELEMETRY / OFFER / CONSENT
+COUNTER_REPLY / COMPLETE"];c->d[label="SOLICIT / CONFIRM / REVOKE
+ROUND_REQUEST / COUNTER"];d->d[label="ANNOUNCE: объявленная цена"]; }

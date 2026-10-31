@@ -1,0 +1,25 @@
+{
+  "javascript": [
+    {
+      "file": "web/api.js",
+      "exit_code": 0
+    },
+    {
+      "file": "web/app.js",
+      "exit_code": 0
+    },
+    {
+      "file": "web/map.js",
+      "exit_code": 0
+    },
+    {
+      "file": "web/panels.js",
+      "exit_code": 0
+    },
+    {
+      "file": "web/playback.js",
+      "exit_code": 0
+    }
+  ],
+  "git_diff_check": "passed"
+}

@@ -1,0 +1,157 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.26",
+    "revision": "@4c20950d2f187a6976cf5e2a1234ca896dcdfd1c",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.12"
+  },
+  "platform": "macOS; local headless Chrome; software graphics",
+  "scene": "run-7a2149fe110a4e00ad56",
+  "trace_events": 3518,
+  "measurement": "capturing click -> two requestAnimationFrame callbacks",
+  "values": [
+    {
+      "action": "step",
+      "ms": 28.899999999906868,
+      "seq": "51",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "pause",
+      "ms": 28.199999999720603,
+      "seq": "65",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "step",
+      "ms": 23.100000000093132,
+      "seq": "66",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "pause",
+      "ms": 29,
+      "seq": "85",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "step",
+      "ms": 26.100000000093132,
+      "seq": "86",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "pause",
+      "ms": 31.199999999720603,
+      "seq": "105",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "step",
+      "ms": 25.200000000186265,
+      "seq": "106",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "pause",
+      "ms": 31,
+      "seq": "125",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "step",
+      "ms": 30,
+      "seq": "126",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "pause",
+      "ms": 27.799999999813735,
+      "seq": "145",
+      "width": 1440,
+      "speed": "60"
+    },
+    {
+      "action": "step",
+      "ms": 21.800000000279397,
+      "seq": "146",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "pause",
+      "ms": 20.299999999813735,
+      "seq": "275",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "step",
+      "ms": 19.899999999906868,
+      "seq": "276",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "pause",
+      "ms": 20.399999999906868,
+      "seq": "385",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "step",
+      "ms": 21.100000000093132,
+      "seq": "386",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "pause",
+      "ms": 21.399999999906868,
+      "seq": "515",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "step",
+      "ms": 21.600000000093132,
+      "seq": "516",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "pause",
+      "ms": 19.90000000037253,
+      "seq": "634",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "step",
+      "ms": 20.600000000093132,
+      "seq": "635",
+      "width": 768,
+      "speed": "600"
+    },
+    {
+      "action": "pause",
+      "ms": 28.600000000093132,
+      "seq": "754",
+      "width": 768,
+      "speed": "600"
+    }
+  ],
+  "maximum_ms": 31.199999999720603,
+  "passed": true
+}

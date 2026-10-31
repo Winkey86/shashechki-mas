@@ -1,0 +1,7 @@
+digraph G {rankdir=TB;node[shape=box,style="rounded,filled",fillcolor="#f4f6f7",fontname="Arial",fontsize=13];edge[fontname="Arial",fontsize=10];p[label="ПАССАЖИР
+Бюджет и ожидание
+Выбор и контрцена"];c[label="ДИСПЕТЧЕР
+Координация
+Фиксация обязательств"];d[label="ВОДИТЕЛЬ
+Затраты и прибыль
+Предложение и согласие"];p->c[dir=both,label="Выбор условий поездки"];c->d[dir=both,label="Согласование исполнения"]; }

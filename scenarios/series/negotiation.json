@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "order_count": 100,
+  "driver_count": 10,
+  "experiment_id": "negotiation",
+  "kind": "negotiation",
+  "title": "Переговоры и смена тарифа",
+  "conditions": [
+    "controlled"
+  ],
+  "variants": [
+    {
+      "id": "first_acceptable",
+      "overrides": {
+        "conflict_policy": "first_acceptable",
+        "rating_policy": "fixed"
+      }
+    },
+    {
+      "id": "negotiation",
+      "overrides": {
+        "conflict_policy": "negotiation",
+        "rating_policy": "fixed"
+      }
+    }
+  ]
+}

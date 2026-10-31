@@ -1,0 +1,20 @@
+"GET /api/v1/scenarios HTTP/1.1" 200 -
+"POST /api/v1/jobs HTTP/1.1" 202 -
+"POST /api/v1/jobs HTTP/1.1" 200 -
+"POST /api/v1/jobs HTTP/1.1" 409 -
+"GET /api/v1/jobs/job-ae82e4c21c99429998b0 HTTP/1.1" 200 -
+"GET /api/v1/jobs/job-ae82e4c21c99429998b0 HTTP/1.1" 200 -
+"GET /api/v1/results/run-8bdd428e751341b1a994 HTTP/1.1" 200 -
+"POST /api/v1/jobs/job-ae82e4c21c99429998b0/cancel HTTP/1.1" 409 -
+"POST /api/v1/jobs HTTP/1.1" 422 -
+"POST /api/v1/jobs HTTP/1.1" 422 -
+"POST /api/v1/jobs HTTP/1.1" 422 -
+"POST /api/v1/jobs HTTP/1.1" 422 -
+"POST /api/v1/jobs HTTP/1.1" 400 -
+"POST /api/v1/jobs HTTP/1.1" 400 -
+"POST /api/v1/jobs HTTP/1.1" 403 -
+"GET /api/v1/results/../../README.md HTTP/1.1" 404 -
+----------------------------------------------------------------------
+Ran 49 tests in 2.079s
+
+OK

@@ -1,0 +1,61 @@
+{
+  "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "site_packages": false,
+  "external_services": false,
+  "tests": [
+    "----------------------------------------------------------------------",
+    "Ran 49 tests in 2.079s",
+    "",
+    "OK"
+  ],
+  "steps": [
+    {
+      "scenario": "normal",
+      "status": "completed"
+    },
+    {
+      "scenario": "playback-10",
+      "status": "completed"
+    },
+    {
+      "scenario": "conflict",
+      "status": "completed"
+    },
+    {
+      "scenario": "tariff-switch",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f1",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f2",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f3",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f4",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f5",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f6",
+      "status": "completed"
+    },
+    {
+      "scenario": "fault-f7",
+      "status": "completed"
+    }
+  ],
+  "replay_equal": true,
+  "auction": true,
+  "export": true,
+  "temporary_copy_removed": true
+}

@@ -1,0 +1,6 @@
+[project]
+name = "shashechki"
+version = "1.0.0"
+description = "Локальная многоагентная симуляция службы такси"
+requires-python = ">=3.12"
+dependencies = []

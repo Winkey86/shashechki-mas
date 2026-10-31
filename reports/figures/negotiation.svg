@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="510" height="250" preserveAspectRatio="xMinYMin meet" viewBox="0 0 510 250" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="510" height="250"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-250)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="2" y="232" style="font-family: PlexMedium; font-size: 12px;fill: rgb(9%,12%,14%); stroke:none;" transform="translate(0,464) scale(1,-1)">Раздельные сравнения: средняя цена завершённых</text>
+			<g transform="">
+				<path d="M 47,53 L 492,53 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 47,84 L 492,84 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 47,115 L 492,115 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 47,146 L 492,146 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 47,177 L 492,177 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 47,208 L 492,208 Z" style="stroke: rgb(89%,90%,91%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<rect x="86.26470588235294" y="53.0" width="65.44117647058822" height="136.3256" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,60%,62%); fill-rule: evenodd;"/>
+					<rect x="308.7647058823529" y="53.0" width="65.44117647058823" height="124.62" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,60%,62%); fill-rule: evenodd;"/>
+					<rect x="164.79411764705884" y="53.0" width="65.44117647058823" height="128.1292" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,50%,8%); fill-rule: evenodd;"/>
+					<rect x="387.29411764705884" y="53.0" width="65.44117647058823" height="128.1292" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,50%,8%); fill-rule: evenodd;"/>
+					<g transform=""/>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 47,53 L 492,53 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 47,53 L 47,48 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 269.5,53 L 269.5,48 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 492,53 L 492,48 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,158.25,48)">
+							<text x="-26.046000000000003" y="-9.0" style="font-family: Plex; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">Переговоры</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,380.75,48)">
+							<text x="-17.217000000000002" y="-9.0" style="font-family: Plex; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-18) scale(1,-1)">Рейтинг</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 47,53 L 47,208 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 47,53 L 42,53 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 47,84 L 42,84 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 47,115 L 42,115 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 47,146 L 42,146 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 47,177 L 42,177 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 47,208 L 42,208 Z" style="stroke: rgb(34%,39%,41%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,42,53)">
+							<text x="-4.8" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,42,84)">
+							<text x="-9.6" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">50</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,42,115)">
+							<text x="-14.4" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">100</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,42,146)">
+							<text x="-14.4" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">150</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,42,177)">
+							<text x="-14.4" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">200</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,42,208)">
+							<text x="-14.4" y="-3.2" style="font-family: Plex; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">250</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="47" y="215" style="font-family: Plex; font-size: 8px;fill: rgb(34%,39%,41%); stroke:none;" transform="translate(0,430) scale(1,-1)">Рубли; 10 пар на исследование</text>
+			<rect x="47" y="16" width="12" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,60%,62%); fill-rule: evenodd;"/>
+			<text x="65" y="15" style="font-family: Plex; font-size: 9px;fill: rgb(9%,12%,14%); stroke:none;" transform="translate(0,30) scale(1,-1)">A: исходный вариант</text>
+			<rect x="250" y="16" width="12" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,50%,8%); fill-rule: evenodd;"/>
+			<text x="268" y="15" style="font-family: Plex; font-size: 9px;fill: rgb(9%,12%,14%); stroke:none;" transform="translate(0,30) scale(1,-1)">B: исследуемый вариант</text>
+		</g>
+	</g>
+</svg>

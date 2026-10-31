@@ -1,0 +1,26 @@
+{
+  "reports/lab-01.pdf": {
+    "sha256": "9cbab42a2ba45c29b6a4a014c81a3cd6e0ea03a9ea6254857455a543c2afa2c2",
+    "bytes": 372414
+  },
+  "reports/lab-02.pdf": {
+    "sha256": "a2204e533464e6625d2185ffb79be5dd4713765329e1fc7dfbd678065dbb4e4f",
+    "bytes": 111316
+  },
+  "reports/lab-03.pdf": {
+    "sha256": "06d714cc3043bd4d6c165cdf343789fafeda9630815929d39f09b87a969949a6",
+    "bytes": 264777
+  },
+  "reports/lab-04.pdf": {
+    "sha256": "0137e0b8cb8498f54fa4c1502aa01e3c14a082c034a6ae0f180f095ea37e88d4",
+    "bytes": 275398
+  },
+  "evidence/source.zip": {
+    "sha256": "f0bb8ee364d9802e884c5306691e7a5604b5024d29510194ce0f6f7bd8900b73",
+    "bytes": 3540770
+  },
+  "evidence/demo.zip": {
+    "sha256": "2155e17356cd14a8d08c44283f0794872bd8bf27587b38d7c4092847cf869d8c",
+    "bytes": 18963718
+  }
+}

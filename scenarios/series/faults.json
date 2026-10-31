@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "order_count": 100,
+  "driver_count": 10,
+  "experiment_id": "faults",
+  "kind": "faults",
+  "title": "Неблагоприятные воздействия",
+  "conditions": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+  ],
+  "variants": [
+    {
+      "id": "baseline",
+      "overrides": {
+        "protection_profile": "baseline"
+      }
+    },
+    {
+      "id": "protected",
+      "overrides": {
+        "protection_profile": "protected"
+      }
+    }
+  ]
+}

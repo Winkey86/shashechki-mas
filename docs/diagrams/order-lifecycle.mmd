@@ -1,0 +1,19 @@
+stateDiagram-v2
+ [*] --> created
+ created --> allocating
+ allocating --> awaiting_consent
+ allocating --> provisional_pickup
+ provisional_pickup --> negotiating
+ negotiating --> awaiting_consent
+ awaiting_consent --> assigned
+ assigned --> pickup
+ pickup --> in_trip
+ in_trip --> completed
+ pickup --> allocating: отзыв и новая версия
+ allocating --> cancelled
+ awaiting_consent --> expired
+ in_trip --> failed
+ completed --> [*]
+ cancelled --> [*]
+ expired --> [*]
+ failed --> [*]

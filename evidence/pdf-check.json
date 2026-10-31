@@ -1,0 +1,26 @@
+{
+  "reports": [
+    {
+      "report": "reports/lab-01.pdf",
+      "pages": 6,
+      "text_chars": 9084
+    },
+    {
+      "report": "reports/lab-02.pdf",
+      "pages": 4,
+      "text_chars": 7252
+    },
+    {
+      "report": "reports/lab-03.pdf",
+      "pages": 5,
+      "text_chars": 7959
+    },
+    {
+      "report": "reports/lab-04.pdf",
+      "pages": 6,
+      "text_chars": 8818
+    }
+  ],
+  "rendered_all_pages": true,
+  "review": "Contact sheets and full-size tables/diagrams; no clipping or missing glyphs"
+}

@@ -1,0 +1,6 @@
+digraph G {rankdir=LR;node[shape=box,fontname="Arial",fontsize=12];edge[fontname="Arial",fontsize=10];a[label="Заявка"];b[label="Распределение
+или переговоры"];c[label="Два согласия"];d[label="Назначение
+и подача"];e[label="Посадка
+и поездка"];f[label="Завершение"];x[label="Отмена / истечение
+или отказ",color="#a6242a"];a->b->c->d->e->f;b->x;d->b[label="отзыв, версия +1
+не более 2 раз"];e->x[label="отказ после посадки"]; }

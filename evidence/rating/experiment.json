@@ -1,0 +1,1 @@
+{"conditions":["controlled"],"driver_count":10,"experiment_id":"rating","kind":"rating","order_count":100,"schema_version":"1.0","seeds":[0,1,2,3,4,5,6,7,8,9],"title":"Влияние рейтинга пассажира","variants":[{"id":"off","overrides":{"conflict_policy":"negotiation","rating_policy":"off"}},{"id":"fixed","overrides":{"conflict_policy":"negotiation","rating_policy":"fixed"}}]}

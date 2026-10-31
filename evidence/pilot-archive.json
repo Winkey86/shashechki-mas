@@ -1,0 +1,12 @@
+{
+  "reason": "Pilot results before corrected monetary aggregation and independent seeds; preserved outside active catalog",
+  "directory": "results/pilots",
+  "moved": [
+    "run-c2d67da87a764a59b713",
+    "series-7bb24c87040741469c4a",
+    "series-41d97862bad84b1c828b",
+    "series-5cdb93e239f34753a84a",
+    "run-64ae293a7f204abfb216",
+    "series-0d54468fcf464e96bf58"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "allocation": {
+    "result_id": "series-8e9915639f7f422dafc9",
+    "path": "results/series-8e9915639f7f422dafc9",
+    "completed_runs": 80,
+    "complete_pairs": 40
+  },
+  "negotiation": {
+    "result_id": "series-bda2f850375b4d16b75b",
+    "path": "results/series-bda2f850375b4d16b75b",
+    "completed_runs": 20,
+    "complete_pairs": 10
+  },
+  "rating": {
+    "result_id": "series-be034b3662844ef0868e",
+    "path": "results/series-be034b3662844ef0868e",
+    "completed_runs": 20,
+    "complete_pairs": 10
+  },
+  "faults": {
+    "result_id": "series-49d74c98960a42cab421",
+    "path": "results/series-49d74c98960a42cab421",
+    "completed_runs": 140,
+    "complete_pairs": 70
+  }
+}

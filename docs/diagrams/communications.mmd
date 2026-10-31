@@ -1,0 +1,6 @@
+flowchart LR
+ P["Пассажир"] -->|"REQUEST · SELECT · COUNTER · CONSENT"| C["Диспетчер"]
+ C -->|"OFFER · CONSENT_REQUEST · CONFIRM · STATUS"| P
+ D["Водитель"] -->|"TELEMETRY · OFFER · COUNTER_REPLY · CONSENT · ARRIVED · COMPLETE"| C
+ C -->|"SOLICIT · COUNTER · TARIFF_PROPOSE · CONFIRM · REVOKE"| D
+ L["Направленные рёбра — сообщения; дорожные маршруты здесь не изображаются"]
