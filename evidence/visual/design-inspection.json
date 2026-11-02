@@ -1618,27 +1618,27 @@
   {
    "viewport": "desktop",
    "width": 1440,
-   "fold": "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/desktop-fold.jpg",
+   "fold": ".taste-skill/app-verified/desktop-fold.jpg",
    "pages": [
-    "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/desktop-page-01.jpg"
+    ".taste-skill/app-verified/desktop-page-01.jpg"
    ],
    "film": []
   },
   {
    "viewport": "tablet",
    "width": 768,
-   "fold": "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/tablet-fold.jpg",
+   "fold": ".taste-skill/app-verified/tablet-fold.jpg",
    "pages": [
-    "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/tablet-page-01.jpg"
+    ".taste-skill/app-verified/tablet-page-01.jpg"
    ],
    "film": []
   },
   {
    "viewport": "mobile",
    "width": 390,
-   "fold": "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/mobile-fold.jpg",
+   "fold": ".taste-skill/app-verified/mobile-fold.jpg",
    "pages": [
-    "/Users/il/Develop/MyProjects/MultyAgenticSystems/.taste-skill/app-verified/mobile-page-01.jpg"
+    ".taste-skill/app-verified/mobile-page-01.jpg"
    ],
    "film": []
   }

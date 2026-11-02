@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "repository_url": "https://github.com/Winkey86/shashechki-mas",
+  "requested_visibility": "public",
+  "explicitly_authorized": true,
+  "tests_passed": 49,
+  "original_experiments": {
+    "runs": 260,
+    "pairs": 130
+  },
+  "public_demo_complete_runs": 37,
+  "runtime": "local",
+  "visual_checks_repeated": false,
+  "checks": "docs/verification.md"
+}
